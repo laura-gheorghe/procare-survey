@@ -1,0 +1,26 @@
+.root {
+  text-align: center;
+  padding: 40px 20px;
+}
+.icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #EBF7F0;
+  color: var(--success);
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  border: 2px solid var(--success);
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.desc {
+  font-size: 15px;
+  color: var(--text-secondary);
+}

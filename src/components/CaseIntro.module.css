@@ -1,0 +1,74 @@
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.caseBox {
+  background: var(--accent-light);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 18px 20px;
+  margin-bottom: 36px;
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--text-primary);
+}
+
+.caseBox strong {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.question {}
+
+.questionText {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.note {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.options {
+  display: flex;
+  gap: 12px;
+}
+
+.optBtn {
+  padding: 12px 36px;
+  border-radius: var(--radius);
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.15s;
+  border: 2px solid transparent;
+}
+
+.yes {
+  background: var(--accent);
+  color: #fff;
+}
+.yes:hover { background: var(--accent-hover); }
+
+.no {
+  background: var(--surface);
+  color: var(--text-secondary);
+  border-color: var(--border-strong);
+}
+.no:hover { background: var(--bg); color: var(--text-primary); }
